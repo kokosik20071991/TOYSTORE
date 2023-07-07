@@ -1,13 +1,13 @@
-public class ToyRaffle {
+public class Raffle {
     public static void main(String[] args) {
         ToyStore store = new ToyStore();
 
-        Toy toy1 = new Toy(1, "Пазл", 10, 20);
-        Toy toy2 = new Toy(2, "Кукла", 200, 40);
-        Toy toy3 = new Toy(3, "Игрушка антистресс", 200, 90);
+        Toy toy1 = new Toy(1, "Puzzle", 10, 20);
+        Toy toy2 = new Toy(2, "Doll", 200, 40);
+        Toy toy3 = new Toy(3, "Antistress Toy", 200, 90);
         Toy toy4 = new Toy(3, "Lego", 50, 30);
-        Toy toy5 = new Toy(3, "Мягкая игрушка", 200, 90);
-        Toy toy6 = new Toy(3, "Монополия", 10, 10);
+        Toy toy5 = new Toy(3, "Soft toy", 200, 90);
+        Toy toy6 = new Toy(3, "Monopoly", 10, 10);
 
         store.addToy(toy1);
         store.addToy(toy2);
